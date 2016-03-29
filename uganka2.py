@@ -5,11 +5,11 @@ ugibaj = 0
 
 while resitev != int(ugibaj):
 
-    ugibaj = raw_input("Prosim ugibaj številko: ")
-    if ugibaj == resitev:
-        print("Bravoooooooooooo!")
+    ugibaj = raw_input("Izvoli, ugibaj številko:")
 
-    elif ugibaj > resitev:
-        print("Ups, prava številka je še višja!:0")
+    if ugibaj == resitev:
+        print ("Bravoooooooooooo! ;)")
+    elif ugibaj < resitev:
+        print ("Ups, prava številka je še višja!:0")
     else:
-        print("Ajoj, prava številka je nižja! :/")
+        print ("Ajoj, prava številka je nižja! :/")
