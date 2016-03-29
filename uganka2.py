@@ -7,9 +7,9 @@ while resitev != int(ugibaj):
 
     ugibaj = raw_input("Prosim ugibaj številko: ")
     if ugibaj == resitev:
-        print("Bravoooooooooooo! ;)")
+        print("Bravoooooooooooo!")
 
-    elif ugibaj < resitev:
+    elif ugibaj > resitev:
         print("Ups, prava številka je še višja!:0")
     else:
         print("Ajoj, prava številka je nižja! :/")
