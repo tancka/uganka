@@ -5,7 +5,7 @@ ugibaj = 0
 
 while resitev != int(ugibaj):
 
-    ugibaj = raw_input("Izvoli, ugibaj številko:")
+    ugibaj = int(raw_input("Izvoli, ugibaj številko:"))
 
     if ugibaj == resitev:
         print ("Bravoooooooooooo! ;)")
