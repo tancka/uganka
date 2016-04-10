@@ -9,8 +9,10 @@ izdelki_cene = {"mleko": "1,15",
         "lesniki": "3,45",
         "bonboni": "2,15"
 }
-izbrani_izdelek = raw_input("Izberi izdelek:")
 def izpisi_ceno():
+    for izdelek,cene in izdelki_cene.iteritems():
+        izbrani_izdelek = raw_input("Izberi izdelek:")
+
         if izbrani_izdelek in izdelki_cene:
             cena = izdelki_cene[izbrani_izdelek]
             print "Cena tega izdelka znaša %s €"%(cena)
@@ -19,4 +21,3 @@ def izpisi_ceno():
             print "Izdelek žal ni na voljo."
 if __name__ == "__main__":
     izpisi_ceno()
-#zanka?
